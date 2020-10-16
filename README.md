@@ -1,6 +1,6 @@
 # Geospatial_SocioeconomicMobility
 
-Problem
+## Problem
 
 The issue this project addresses is socioeconomic mobility amongst minority communities across America. 
 
@@ -23,7 +23,7 @@ https://opportunityinsights.org/paper/race/
 
 I applied Machine Learning models for prediction and feature engineering to provide additional insight, while keeping in mind explainability given the social importance of the subject. I also approached the problem with Classification methods instead to add interpretability: given a specific community or area of communities, what level of economic mobility can we predict the children to have (low, medium, high)?  In addition, my project focuses on only minority communities, and I’ve added interactive visualizations to portray the geographical variations. 
 
-Data
+## Data
 
 The data is from Opportunity Insights (https://opportunityinsights.org/data/), a Harvard non-profit focused on the issue, which has a great library of data on socioeconomic and educational factors by geographic level across America.
 
@@ -31,7 +31,7 @@ Datasets:
 Neighborhood Characteristics by Commuting Zone (‘CZ_neighborhoodcharacteristicsbycsv.csv’)
 Geography of Mobility: Commuting Zone Characteristics - Definitions and Data Sources (‘online_data_tables-8.xls')
 
-Data Cleaning and Pre-processing
+## Data Cleaning and Pre-processing
 
 The first dataset is a CSV of neighborhood characteristics, from which we grab certain racial share data and apply a filter for just the minority communities, grouping by Commuting Zone, a unique numeric identifier for communities ranging across the entire United States. 
 
@@ -44,7 +44,7 @@ Target Variable
 The target variable is the metric we use to measure socioeconomic mobility, deemed “Absolute Upward Mobility”, engineered from the paper (https://opportunityinsights.org/paper/land-of-opportunity/). It is the mean rank (in the national child income distribution) of children whose parents are at the 25th percentile of the national parent income distribution. The paper goes into great comprehensive detail of this ranking method, as well as data sources used such as Census Data and IRS tax filings, and adjustments for robustness of the metric. 
 
 
-EDA
+## EDA
 
 Correlation tables and heat maps are printed for all features vs. the target variable (labeled ‘am, 80-82 cohort’). Immediately we see the biggest positive and negative correlations, including features such as fraction of children with single mothers, racial shares, high school dropout rate, fraction of adults married, fraction of middle class families, teenage labor force participation rate, etc. 
 
@@ -62,12 +62,12 @@ Note that Classification should not suffer from imbalanced classes given the dis
 
 
 
-Feature Selection
+## Feature Selection
 
 I create a function for Mutual Information Classification to create feature rankings for binary and multi-label Classification and print top features. These results are consistent with the correlation EDA from before. 
 
 
-Model Selection and Results
+## Model Selection and Results
 
 Binary Classification
 
@@ -111,7 +111,7 @@ Gradient Boosting overfit again.
 
 
 
-Visualizations
+## Visualizations
 
 Utilizing Plotly for interactive graphical visualizations, displayed the results for both Binary and Multi-label Classification. <Link to Plotly visualizations here>. 
 
