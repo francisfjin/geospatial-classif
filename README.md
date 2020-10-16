@@ -29,10 +29,14 @@ Investigates statistical correlation of features vs. target variable, and displa
 
 ![image of heatmap](https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/images/heatmap.png)
 
+![image distplot](https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/images/distplot.png)
+
 
 ## Feature Selection
 
 Uses Sklearn library's Mutual Information Classification to create feature importance rankings. 
+
+![image features](https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/images/features.png)
 
 ## Model Selection and Results
 
@@ -55,8 +59,7 @@ Geopy Library for longitude/latitude coordinate identification for communities
 
 Plotly Scattergeo for interactive map of USA of results
 
-<map1.jpg>
-<map2.jpg>
+![image map](https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/images/map.png)
 
 
 
