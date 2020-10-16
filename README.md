@@ -6,7 +6,7 @@ Final report here: [final project report!](https://github.com/francisfjin/Geospa
 
 ## Problem
 
-Project addresses socioeconomic mobility amongst children in minority communities across America geographically. 
+Project addresses socioeconomic mobility amongst children in minority communities across America geographically. Using Classification machine learning methods, the models predict the future level of socioeconomic mobility of children based on a variety of community-level attributes. Also, the project highlights the most important factors contributing to successful upward mobility of children using Feature Engineering techniques. 
 
 ## Data
 
@@ -20,11 +20,7 @@ Datasets:
 
 ## Data Cleaning and Pre-processing
 
-First dataset CSV of neighborhood characteristics, from which we grab certain racial share data and apply a filter for just the minority communities, grouping by Commuting Zone, a unique numeric identifier for communities ranging across the entire United States. 
-
-Our second dataset is an XLS file from which we import the two sheets: Online Data Table 5 and Online Data Table 8. 
-
-We merge the two datasets on Commuting Zone, resulting with a dataset of 40 features and 500 entries. 
+First dataset CSV of neighborhood characteristics, from which we grab certain racial share data and apply a filter for just the minority communities, grouping by Commuting Zone, a unique numeric identifier for communities ranging across the entire United States. Our second dataset is an XLS file from which we import the two sheets: Online Data Table 5 and Online Data Table 8. We merge the two datasets on Commuting Zone, resulting with a dataset of 40 features and 500 entries. 
 
 Target Variable 
 
@@ -33,20 +29,11 @@ The target variable is the metric we use to measure socioeconomic mobility, deem
 
 ## EDA
 
-Correlation tables and heat maps are printed for all features vs. the target variable (labeled ‘am, 80-82 cohort’). We see the biggest positive and negative correlations, including features such as fraction of children with single mothers, racial shares, high school dropout rate, fraction of adults married, fraction of middle class families, teenage labor force participation rate, etc. 
+Correlation tables and heat maps for features vs. the target variable (labeled ‘am, 80-82 cohort’). 
 
 We also investigate the distribution of the target variable with visualizations, noting a relatively normal distribution. 
 
 We create target variable labels from the Absolute Upward Mobility metric for both Binary and Multi-label Classification. 
-
-For binary classification, 'am, 80-82 cohort’ is split in half by its numeric mean for labels 1 and 0, success being 1 and failure being 0, representing good or bad mobility. For multi-label classification, 'am, 80-82 cohort’ is split into quartiles 0-25%, 25-50%, 50-75%, and 75-100% - respectively representing low, medium, high, and excellent mobility. 
-
-Note that Classification should not suffer from imbalanced classes given the distribution and engineering of the target variable labels. 
-
-
-
-
-
 
 
 ## Feature Selection
