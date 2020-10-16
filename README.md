@@ -1,4 +1,4 @@
-# Socioeconomic Mobility on a Community-level in the United States
+# Socioeconomic Mobility on a Community-level in the US
 
 ## Problem
 
