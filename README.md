@@ -17,6 +17,7 @@ The data is from Opportunity Insights (https://opportunityinsights.org/data/), a
 
 Datasets: 
 [Neighborhood Characteristics by Commuting Zone](https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/CZ_neighborhoodcharacteristicsbycsv.csv)
+
 [Geography of Mobility: Commuting Zone Characteristics - Definitions and Data Sources](https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/online_data_tables-8.xls)
 
 ## Data Cleaning and Pre-processing
