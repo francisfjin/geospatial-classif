@@ -1,5 +1,7 @@
 # Geospatial Socioeconomic Mobility by Community in the US
 
+finalproject.ipynb
+
 ## Problem
 
 The issue this project addresses is socioeconomic mobility amongst minority communities across America. 
