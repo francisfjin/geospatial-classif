@@ -6,34 +6,18 @@ Final report here: [final project report!](https://github.com/francisfjin/Geospa
 
 ## Problem
 
-The issue this project addresses is socioeconomic mobility amongst minority communities across America. 
-
-Specifically attempting to answer the following questions: 
-
-What attributes about a given community have the biggest impact on the socioeconomic mobility of its children?
-Given data on those attributes, can we predict the level of socioeconomic mobility of children from that community? 
-What key visualizations can we create to portray this on a community-level in the US? 
+This project addresses socioeconomic mobility amongst children in minority communities across America. 
 
 Conclusions will provide insight into geographical variation, trends amongst communities, and important factors to children rising out of poverty, thus informing potential targeted solutions for minority communities and future policy reform. 
 
-Attempts made previously
-
-Namely two studies from Opportunity Insights (where we drew our data from), tackled the issue in different ways. They used traditional statistical analysis and regression to investigate the impact of community and race on economic mobility. 
-
-Studies: 
-- Where is the Land of Opportunity? The Geography of Intergenerational Mobility in the United States https://opportunityinsights.org/paper/land-of-opportunity/
-- Race and Economic Opportunity in the United States: An Intergenerational Perspective
-https://opportunityinsights.org/paper/race/
-
-I applied Machine Learning models for prediction and feature engineering to provide additional insight, while keeping in mind explainability given the social importance of the subject. I also approached the problem with Classification methods instead to add interpretability: given a specific community or area of communities, what level of economic mobility can we predict the children to have (low, medium, high)?  In addition, my project focuses on only minority communities, and I’ve added interactive visualizations to portray the geographical variations. 
 
 ## Data
 
 The data is from Opportunity Insights (https://opportunityinsights.org/data/), a Harvard non-profit focused on the issue, which has a great library of data on socioeconomic and educational factors by geographic level across America.
 
 Datasets: 
-Neighborhood Characteristics by Commuting Zone (‘CZ_neighborhoodcharacteristicsbycsv.csv’)
-Geography of Mobility: Commuting Zone Characteristics - Definitions and Data Sources (‘online_data_tables-8.xls')
+[Neighborhood Characteristics by Commuting Zone] (https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/CZ_neighborhoodcharacteristicsbycsv.csv)
+[Geography of Mobility: Commuting Zone Characteristics - Definitions and Data Sources] (https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/online_data_tables-8.xls)
 
 ## Data Cleaning and Pre-processing
 
