@@ -1,4 +1,4 @@
-# Geospatial_SocioeconomicMobility
+# Community-level Socioeconomic Mobility
 
 ## Problem
 
