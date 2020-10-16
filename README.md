@@ -1,4 +1,4 @@
-# Socioeconomic Mobility on a Community-level in the US
+# Geospatial Socioeconomic Mobility by Community in the US
 
 ## Problem
 
