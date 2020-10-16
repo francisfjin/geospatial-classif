@@ -6,7 +6,7 @@ Final report here: [final project report!](https://github.com/francisfjin/Geospa
 
 ## Problem
 
-Project addresses socioeconomic mobility amongst children in minority communities across America geographically. Using Classification machine learning methods, the models predict the future level of socioeconomic mobility of children based on a variety of community-level attributes. Also, the project highlights the most important factors contributing to successful upward mobility of children using Feature Engineering techniques. 
+Project addresses socioeconomic mobility amongst children in minority communities across America geographically. Using Binary and Multi-label Classification machine learning methods, the model predicts the level of future socioeconomic mobility of children in a community using a variety of social, educational, and economic attributes. The project highlights the most important community factors contributing to successful upward mobility using Feature Engineering, and deploys interactive visualizations to portray the results. 
 
 ## Data
 
@@ -20,8 +20,6 @@ Source: [Opportunity Insights](https://opportunityinsights.org/data/).
 
 First dataset CSV of neighborhood characteristics, from which we grab certain racial share data and apply a filter for just the minority communities, grouping by Commuting Zone, a unique numeric identifier for communities ranging across the entire United States. Our second dataset is an XLS file from which we import the two sheets: Online Data Table 5 and Online Data Table 8. We merge the two datasets on Commuting Zone, resulting with a dataset of 40 features and 500 entries. 
 
-Target Variable 
-
 The target variable is the metric we use to measure socioeconomic mobility, deemed [“Absolute Upward Mobility”](https://opportunityinsights.org/paper/land-of-opportunity/). It is the mean rank (in the national child income distribution) of children whose parents are at the 25th percentile of the national parent income distribution. The paper goes into great comprehensive detail of this ranking method, as well as data sources used such as Census Data and IRS tax filings, and adjustments for robustness of the metric. 
 
 
@@ -29,9 +27,9 @@ The target variable is the metric we use to measure socioeconomic mobility, deem
 
 Correlation tables and heat maps for features vs. the target variable (labeled ‘am, 80-82 cohort’). 
 
-We also investigate the distribution of the target variable with visualizations, noting a relatively normal distribution. 
+Distribution of the target variable with visualizations, noting a relatively normal distribution. 
 
-We create target variable labels from the Absolute Upward Mobility metric for both Binary and Multi-label Classification. 
+Target variable labels from the Absolute Upward Mobility metric for both Binary and Multi-label Classification. 
 
 
 ## Feature Selection
