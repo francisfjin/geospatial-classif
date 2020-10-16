@@ -35,7 +35,7 @@ Matplotlib library Distribution and Cumulative Plots
 
 ## Feature Selection
 
-Function using Mutual Information Classification from Sklearn.feature_selection to create feature rankings for binary and multi-label Classification. 
+Function using Mutual Information Classification from Sklearn library to create feature rankings for binary and multi-label Classification. 
 
 <feature rankings.jpg>
 <top ten features.jpg>
