@@ -20,7 +20,7 @@ Source: [Opportunity Insights](https://opportunityinsights.org/data/).
 
 Methods: Importing XLS and CSV files, slicing excel sheets, filtering for minority communities, cleaning and renaming columns, grouping by and merging on Commuting Zone, a unique numeric identifier for communities ranging across the entire United States. Resulting dataset has 40 features and 500 entries. 
 
-Target variable is a metric to measure socioeconomic mobility, deemed “Absolute Upward Mobility” and engineered from the original [paper](https://opportunityinsights.org/paper/land-of-opportunity/). It is the mean income rank of children whose parents are at the 25th percentile of the national parent income distribution. 
+Target variable is a metric to measure socioeconomic mobility, deemed “Absolute Upward Mobility” and engineered from the original [paper](https://opportunityinsights.org/paper/land-of-opportunity/) from Opportunity Insights. Defined as the mean income rank of children whose parents are at the 25th percentile of the national parent income distribution. 
 
 
 ## EDA
