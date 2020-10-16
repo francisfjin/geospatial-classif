@@ -27,13 +27,13 @@ Target variable is a metric to measure socioeconomic mobility, deemed “Absolut
 
 ## EDA
 
-Investigates statistical correlation of features vs. target variable, and displays correlation heat maps using Seaborn Library. 
+Investigates statistical correlation of features vs. target variable with correlation tables and heat maps using Seaborn Library. 
 
-Investigates distribution of target variable using Matplotlib graphs. 
+Investigates distribution of target variable using distribution plots, histograms, and CDF plots using Matplotlib library. 
 
 ## Feature Selection
 
-Removes duplicated features and uses Sklearn library's Mutual Information Classification to create feature importance rankings. 
+Removes duplicated features and uses Sklearn library's Mutual Information Classification to create feature importance rankings for both Binary and Multi-label Classification. Target variable for Binary is split into labels 1 for success and 0 for failure. Target variable for Multi-label is split by quartiles into Low, Medium, High, and Excellent for upward mobility. 
 
 ## Model Selection and Results
 
@@ -43,7 +43,7 @@ Binary Classification
 - GridSearchCV hyper-parameter tuning
 
 K-Means Clustering
-- Optimal number of clusters using elbow method
+- Unsupervised Learning Method to find optimal number of clusters using elbow method to inform multi-label classification
 
 Multi-Label Classification
 - Logistic Regression with 10-fold Cross-Validation, Elastic Net Regularization, Hyper-parameter Tuning, Standard Scaler (~80%/75% accuracy)
