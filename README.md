@@ -6,7 +6,7 @@ Final report here: [final project report!](https://github.com/francisfjin/Geospa
 
 ## Topic
 
-Project addresses the geographical variations in socioeconomic mobility amongst children in minority communities across America. Using Binary and Multi-label Classification machine learning methods, the model predicts the level of future socioeconomic mobility in a community using a variety of social, educational, and economic attributes. The project highlights the most important factors contributing to successful upward mobility using Feature Engineering, and deploys interactive visualizations with Plotly to portray the results. 
+Project addresses the geographical variations in socioeconomic mobility amongst children in minority communities across America using Binary/Multi-label Classification machine learning methods. The model predicts the level of future socioeconomic mobility using a variety of social, educational, and economic features, and highlights the most important features contributing to successful upward mobility, while deploying interactive visualizations with Plotly to portray results. 
 
 ## Data
 
@@ -25,41 +25,33 @@ Target variable is a metric to measure socioeconomic mobility, deemed “Absolut
 
 ## EDA
 
-Correlation Tables
-
-Seaborn library Heat Maps 
-
-Matplotlib library Distribution and Cumulative Plots
-
+Investigates statistical correlation of features vs. target variable, and displays heat maps using Seaborn Library of relationship. Also investigates distribution of target variable using Matplotlib graphs. 
 
 
 ## Feature Selection
 
-Function using Mutual Information Classification from Sklearn library to create feature rankings for binary and multi-label Classification. 
-
-<feature rankings.jpg>
-<top ten features.jpg>
-
+Uses Sklearn library's Mutual Information Classification to create feature importance rankings. 
 
 ## Model Selection and Results
 
 Binary Classification
-- Logistic Regression with 5-fold Cross-Validation, Elastic Net Regularization, Hyper-parameter Tuning, Standard Scaler
+- Logistic Regression with 5-fold Cross-Validation, Elastic Net Regularization, Hyper-parameter Tuning, Standard Scaler. (~90%/~85% accuracy)
 - Ensemble methods: Random Forest Classifier, Gradient Boosting Classifier
-- GridSearchCV 
+- GridSearchCV hyper-parameter tuning
 
 K-Means Clustering
+- Optimal number of clusters using elbow method
 
 Multi-Label Classification
-- Logistic Regression with 10-fold Cross-Validation, Elastic Net Regularization, Hyper-parameter Tuning, Standard Scaler
+- Logistic Regression with 10-fold Cross-Validation, Elastic Net Regularization, Hyper-parameter Tuning, Standard Scaler (~80%/75% accuracy)
 - Gradient Boosting Classifier
-- GridSearchCV 
+- GridSearchCV hyper-parameter tuning
 
 ## Visualizations
 
-Geopy Library for longitude/latitude coordinate identification
+Geopy Library for longitude/latitude coordinate identification for communities
 
-Plotly Scattergeo for interactive map of USA for results 
+Plotly Scattergeo for interactive map of USA of results
 
 <map1.jpg>
 <map2.jpg>
