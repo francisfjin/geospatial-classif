@@ -27,7 +27,7 @@ Target variable is a metric to measure socioeconomic mobility, deemed “Absolut
 
 Investigates statistical correlation of features vs. target variable, and displays heat maps using Seaborn Library of relationship. Also investigates distribution of target variable using Matplotlib graphs. 
 
-<img src="https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/images/heatmap.png" width=50 align=left> <img src="https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/images/distplot.png" size=50 align=right>
+<img src="https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/images/heatmap.png" width=200 align=left> <img src="https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/images/distplot.png" width=200 align=left>
 
 
 ## Feature Selection
