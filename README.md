@@ -30,11 +30,13 @@ Investigates statistical correlation of features vs. target variable, and displa
 <img src="https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/images/heatmap.png" width=300 align=left> <img src="https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/images/distplot.png" width=300 align=left>
 
 
+
+
 ## Feature Selection
 
 Uses Sklearn library's Mutual Information Classification to create feature importance rankings. 
 
-![image features](https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/images/features.png)
+<img src="https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/images/features.png" width=200 align=left>
 
 ## Model Selection and Results
 
