@@ -10,7 +10,7 @@ Project addresses socioeconomic mobility amongst children in minority communitie
 
 ## Data
 
-Data is from [Opportunity Insights](https://opportunityinsights.org/data/).
+Source: [Opportunity Insights](https://opportunityinsights.org/data/).
 
 [Neighborhood Characteristics by Commuting Zone](https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/CZ_neighborhoodcharacteristicsbycsv.csv)
 
