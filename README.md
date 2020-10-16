@@ -8,6 +8,8 @@ Jupyter notebook here: [finalproject.ipynb](https://github.com/francisfjin/Geosp
 
 Project addresses the geographical variations in socioeconomic mobility amongst children in minority communities across America using Binary/Multi-label Classification machine learning methods. The model predicts the level of future socioeconomic mobility using a variety of social, educational, and economic attributes, and highlights the most important features contributing to successful upward mobility, while deploying interactive visualizations with Plotly to portray results. 
 
+![image map](https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/images/map.png)
+
 ## Data
 
 Source: [Opportunity Insights](https://opportunityinsights.org/data/).
@@ -25,12 +27,7 @@ Target variable is a metric to measure socioeconomic mobility, deemed “Absolut
 
 ## EDA
 
-Investigates statistical correlation of features vs. target variable, and displays heat maps using Seaborn Library of relationship. Also investigates distribution of target variable using Matplotlib graphs. 
-
-<img src="https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/images/heatmap.png" width=320 align=left> 
-<img src="https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/images/distplot.png" width=320 align=left> 
-<img src="https://github.com/francisfjin/geospatial_socioeconomic_mobility/blob/main/images/cdfplot.png" width=320 align=left>\
-<br/>
+Investigates statistical correlation of features vs. target variable, and displays heat maps using Seaborn Library of relationship. Also investigates distribution of target variable using Matplotlib graphs. <img src="https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/images/heatmap.png" width=300 align=left> <img src="https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/images/distplot.png" width=300 align=left>\
 
 ## Feature Selection
 
@@ -59,7 +56,7 @@ Geopy Library for longitude/latitude coordinate identification for communities
 
 Plotly Scattergeo for interactive map of USA of results
 
-![image map](https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/images/map.png)
+
 
 
 
