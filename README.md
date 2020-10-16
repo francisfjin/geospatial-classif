@@ -140,7 +140,7 @@ Hover over any city to view its Actual vs. Predicted mobility label. Note the hi
 
 
 
-Conclusions
+## Conclusions
 
 Our hypothesis is confirmed that using data on community-level attributes, we can predict the level of future socioeconomic mobility of children who grow up in that community. This shows not only that there are geographical variations in the likelihood of the success of children, but also the community-level features which are most important in determining this. 
 
