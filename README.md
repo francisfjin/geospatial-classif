@@ -39,7 +39,7 @@ Investigates statistical correlation of features vs. target variable, and displa
 
 Uses Sklearn library's Mutual Information Classification to create feature importance rankings. 
 
-<img src="https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/images/features.png" width=200 align=left>
+<img src="https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/images/features.png" width=200 align=middle>
 
 ## Model Selection and Results
 
