@@ -1,6 +1,6 @@
 # Geospatial Socioeconomic Mobility by Community in the US
 
-https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/finalproject.ipynb
+[finalproject.ipynb](https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/finalproject.ipynb)
 
 ## Problem
 
