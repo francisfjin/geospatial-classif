@@ -1,6 +1,6 @@
 # Geospatial Socioeconomic Mobility
 
-Final report here: [final project report!](https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/FinalReport.pdf)
+Final report here: [final project report!](https://github.com/francisfjin/geospatial_socioeconomic_mobility/blob/main/FinalReport.pdf)
 
 Jupyter notebook here: [finalproject.ipynb](https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/finalproject.ipynb)
 
