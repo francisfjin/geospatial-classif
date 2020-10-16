@@ -4,7 +4,7 @@ Jupyter notebook here: [finalproject.ipynb](https://github.com/francisfjin/Geosp
 
 Final report here: [final project report!](https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/FinalReport.pdf)
 
-## Problem
+## Topic
 
 Project addresses the geographical variations in socioeconomic mobility amongst children in minority communities across America. Using Binary and Multi-label Classification machine learning methods, the model predicts the level of future socioeconomic mobility in a community using a variety of social, educational, and economic attributes. The project highlights the most important factors contributing to successful upward mobility using Feature Engineering, and deploys interactive visualizations with Plotly to portray the results. 
 
