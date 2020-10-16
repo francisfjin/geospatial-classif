@@ -27,7 +27,7 @@ Target variable is a metric to measure socioeconomic mobility, deemed “Absolut
 
 ## EDA
 
-Investigates statistical correlation of features vs. target variable, and displays heat maps using Seaborn Library of relationship. Also investigates distribution of target variable using Matplotlib graphs. 
+Investigates statistical correlation of features vs. target variable, and displays heat maps of relationship using Seaborn Library. Also investigates distribution of target variable using Matplotlib graphs. 
 
 ## Feature Selection
 
