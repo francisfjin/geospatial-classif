@@ -33,7 +33,7 @@ Investigates distribution of target variable using Matplotlib graphs.
 
 ## Feature Selection
 
-Uses Sklearn library's Mutual Information Classification to create feature importance rankings. 
+Removes duplicated features and uses Sklearn library's Mutual Information Classification to create feature importance rankings. 
 
 ## Model Selection and Results
 
