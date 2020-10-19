@@ -1,4 +1,4 @@
-# Geospatial Socioeconomic Mobility
+# Geospatial Socioeconomic Mobility by Community, USA
 
 Final Report here: [final project report!](https://github.com/francisfjin/geospatial_socioeconomic_mobility/blob/main/FinalReport.pdf)
 
