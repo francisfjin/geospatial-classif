@@ -6,7 +6,7 @@ Jupyter Notebook here: [finalproject.ipynb](https://github.com/francisfjin/Geosp
 
 ## Topic
 
-Project using Classification methods to address the geographical variations in socioeconomic mobility amongst children in minority communities across America using machine learning. The model predicts the level of future socioeconomic mobility using a variety of social, educational, and economic attributes, and highlights the most important features contributing to successful upward mobility, while deploying interactive visualizations with Plotly to portray results. 
+Project using Classification machine learning methods to address the geographical variations in socioeconomic mobility amongst children in minority communities across America. The model predicts the level of future socioeconomic mobility using a variety of social, educational, and economic attributes, and highlights the most important features contributing to successful upward mobility, while deploying interactive visualizations with Plotly to portray results. 
 
 ![image map](https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/images/map.png)
 
