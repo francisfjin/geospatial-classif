@@ -52,9 +52,9 @@ Multi-Label Classification
 
 ## Visualizations
 
-Geopy Library for longitude/latitude coordinate identification for communities
+[Geopy](https://geopy.readthedocs.io/en/stable/) Library for longitude/latitude coordinate identification for communities
 
-Plotly Scattergeo for interactive map of USA of results
+[Plotly](https://plotly.com/) Scattergeo for interactive map of USA of results
 
 
 
