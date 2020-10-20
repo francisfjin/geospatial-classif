@@ -60,22 +60,22 @@ Correlation tables and heat maps are printed for all features vs. the target var
 We also investigate the distribution of the target variable with visualizations, noting a relatively normal distribution.  
 We create target variable labels from the Absolute Upward Mobility metric for both Binary and Multi-label Classification. 
 
-![](histogram)
-![](distplot)
-![](cdf)
+![](https://github.com/francisfjin/geospatial-classification/blob/main/images/histplot.png)
+![](https://github.com/francisfjin/geospatial-classification/blob/main/images/distplot.png)
+![](https://github.com/francisfjin/geospatial-classification/blob/main/images/cdf.png)
 
 For binary classification, 'am, 80-82 cohort’ is split in half by its numeric mean for labels 1 and 0, success being 1 and failure being 0, representing good or bad mobility. For multi-label classification, 'am, 80-82 cohort’ is split into quartiles 0-25%, 25-50%, 50-75%, and 75-100% - respectively representing low, medium, high, and excellent mobility. 
 
 Note that Classification should not suffer from imbalanced classes given the distribution and engineering of the target variable labels. 
 
-![](value counts)
+![](https://github.com/francisfjin/geospatial-classification/blob/main/images/valuecounts.png)
 
 
 ## Feature Selection
 
 I create a function for Mutual Information Classification to create feature rankings for binary and multi-label Classification and print top features. These results are consistent with the correlation EDA from before. 
 
-![](top ten features)
+![](https://github.com/francisfjin/geospatial-classification/blob/main/images/toptenfeatures.png)
 
 ## Model Selection and Results
 
@@ -86,20 +86,20 @@ Started with a simple LogisticRegression model which showed poor performance. En
 
 Here is an example of the Feature Importances from the GradientBoostingClassifier. The highest one is again fraction of children with single mothers, but other important features not identified before include manufacturing employment share, fraction religious, growth in Chinese imports. Interesting insight.
 
-![](gradientboosted)
+![](https://github.com/francisfjin/geospatial-classification/blob/main/images/gradientfeatures.png)
 
 Given the need for regularization, I scaled the data and employed LogisticRegressionCV with elastic-net regularization, 5-fold cross-validation, and hyper-parameter tuning ranges of Cs = np.logspace(-10,10,50) and L1 ratios = np.arange(0,1,.05). 
 
 Training and test set scores both drastically improved to ~90%, with roc_auc_score consistently above 90% as well. 
 
-![](accuracy)
+![](https://github.com/francisfjin/geospatial-classification/blob/main/images/multi.png)
 
 
 _K-Means Clustering_
 
 Although not originally a clustering problem, I investigated the data with the K-Means Clustering method to find the optimal number of clusters to be around 4. This is theoretically consistent with our splitting of target variable labels into 4 groups for multi-label classification. I also appended cluster labels to the dataset as a feature in multi-label classification. 
 
-![](elbow graph)
+![](https://github.com/francisfjin/geospatial-classification/blob/main/images/elbow.png)
 
 _Multi-Label Classification_
 
@@ -114,7 +114,7 @@ Utilizing Plotly for interactive graphical visualizations, displayed the results
 
 Hover over any city to view its Actual vs. Predicted mobility label. Note the higher accuracy of the model, the more identical the map colors will be. 
 
-![](other maps)
+![](https://github.com/francisfjin/geospatial-classification/blob/main/images/map.png)
 
 
 ## Conclusions
