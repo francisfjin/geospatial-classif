@@ -1,7 +1,7 @@
 # Geospatial Socioeconomic Mobility
 ## By Francis Jin
 
-![](plotly map)
+![](https://github.com/francisfjin/geospatial-classification/blob/gh-pages/map.htm)
 
 
 ## Problem
