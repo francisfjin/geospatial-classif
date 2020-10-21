@@ -1,7 +1,7 @@
 # Geospatial Socioeconomic Mobility
 ## By Francis Jin
 
-[Interactive Map!](https://francisfjin.github.io/page/)
+[Interactive Maps!](https://francisfjin.github.io/page/)
 
 
 ## Problem
