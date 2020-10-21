@@ -55,17 +55,16 @@ The target variable is the metric we use to measure socioeconomic mobility, deem
 
 Correlation tables and heat maps are printed for all features vs. the target variable (labeled ‘am, 80-82 cohort’). Immediately we see the biggest positive and negative correlations, including features such as fraction of children with single mothers, racial shares, high school dropout rate, fraction of adults married, fraction of middle class families, teenage labor force participation rate, etc. 
 
-<img src="/image/correlation.png" width="200" height="200">
-![](/image/correlation.png)
-![](/image/heatmap.png)
+<img src="/image/correlation.png" width="250" height="250">
+<img src="/image/heatmap.png" width="250" height="250">
 
 
 We also investigate the distribution of the target variable with visualizations, noting a relatively normal distribution.  
 We create target variable labels from the Absolute Upward Mobility metric for both Binary and Multi-label Classification. 
 
-![](/image/histplot.png)
-![](/image/distplot.png)
-![](/image/cdf.png)
+<img src="/image/histplot.png" width="200" height="200">
+<img src="/image/distplot.png" width="200" height="200">
+<img src="/image/cdf.png" width="200" height="200">
 
 For binary classification, 'am, 80-82 cohort’ is split in half by its numeric mean for labels 1 and 0, success being 1 and failure being 0, representing good or bad mobility. For multi-label classification, 'am, 80-82 cohort’ is split into quartiles 0-25%, 25-50%, 50-75%, and 75-100% - respectively representing low, medium, high, and excellent mobility. 
 
@@ -121,7 +120,7 @@ Hover over any city to view its Actual vs. Predicted mobility label. Note the hi
 [Interactive Maps!](https://francisfjin.github.io/page/)
 
 
-## Conclusionshttps://plotly.com/
+## Conclusions
 Our hypothesis is confirmed that using data on community-level attributes, we can predict the level of future socioeconomic mobility of children who grow up in that community. This shows not only that there are geographical variations in the likelihood of the success of children, but also the community-level features which are most important in determining this. 
 
 We can identify who is disadvantaged or advantaged, why, and hopefully how to help more children rise up. Once able to identify the factors helping or preventing children’s success in rising out of poverty, we can start to use this information to inform social policy, community activism, education reform, and targeted solutions for communities across the country.
