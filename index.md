@@ -53,17 +53,16 @@ The target variable is the metric we use to measure socioeconomic mobility, deem
 
 ## EDA
 
-Correlation tables and heat maps are printed for all features vs. the target variable (labeled ‘am, 80-82 cohort’). Immediately we see the biggest positive and negative correlations, including features such as fraction of children with single mothers, racial shares, high school dropout rate, fraction of adults married, fraction of middle class families, teenage labor force participation rate, etc. <img src="/image/heatmap.png" width="500" height="500" align="middle">
+Correlation tables and heat maps are printed for all features vs. the target variable (labeled ‘am, 80-82 cohort’). Immediately we see the biggest positive and negative correlations, including features such as fraction of children with single mothers, racial shares, high school dropout rate, fraction of adults married, fraction of middle class families, teenage labor force participation rate, etc. 
 
-<img src="/image/correlation.png" width="250" height="250">
-
+![](/image/heatmap.png)
+![](/image/correlation.png)
 
 We also investigate the distribution of the target variable with visualizations, noting a relatively normal distribution. 
 
-
-<img src="/image/histplot.png" width="300" height="200"> 
-<img src="/image/distplot.png" width="300" height="200"> 
-<img src="/image/cdf.png" width="300" height="200">
+![](/image/histplot.png)
+![](/image/distplot.png)
+![](/image/cdf.png)
 
 We create target variable labels from the Absolute Upward Mobility metric for both Binary and Multi-label Classification. 
 
@@ -88,7 +87,7 @@ Started with a simple LogisticRegression model which showed poor performance. En
 
 Here is an example of the Feature Importances from the GradientBoostingClassifier. The highest one is again fraction of children with single mothers, but other important features not identified before include manufacturing employment share, fraction religious, growth in Chinese imports. Interesting insight.
 
-<img src="/image/gradientfeatures.png" width="400" height="300">
+![](/image/gradientfeatures.png)
 
 
 Given the need for regularization, I scaled the data and employed LogisticRegressionCV with elastic-net regularization, 5-fold cross-validation, and hyper-parameter tuning ranges of Cs = np.logspace(-10,10,50) and L1 ratios = np.arange(0,1,.05). 
@@ -101,7 +100,7 @@ _K-Means Clustering_
 
 Although not originally a clustering problem, I investigated the data with the K-Means Clustering method to find the optimal number of clusters to be around 4. This is theoretically consistent with our splitting of target variable labels into 4 groups for multi-label classification. I also appended cluster labels to the dataset as a feature in multi-label classification. 
 
-<img src="/image/elbow.png" width="400" height="300">
+![](/image/elbow.png)
 
 _Multi-Label Classification_
 
