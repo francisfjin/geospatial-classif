@@ -88,7 +88,7 @@ Started with a simple LogisticRegression model which showed poor performance. En
 
 Here is an example of the Feature Importances from the GradientBoostingClassifier. The highest one is again fraction of children with single mothers, but other important features not identified before include manufacturing employment share, fraction religious, growth in Chinese imports. Interesting insight.
 
-<img src="/image/gradientfeatures.png" width="300" height="300">
+<img src="/image/gradientfeatures.png" width="400" height="300">
 
 
 Given the need for regularization, I scaled the data and employed LogisticRegressionCV with elastic-net regularization, 5-fold cross-validation, and hyper-parameter tuning ranges of Cs = np.logspace(-10,10,50) and L1 ratios = np.arange(0,1,.05). 
@@ -101,7 +101,7 @@ _K-Means Clustering_
 
 Although not originally a clustering problem, I investigated the data with the K-Means Clustering method to find the optimal number of clusters to be around 4. This is theoretically consistent with our splitting of target variable labels into 4 groups for multi-label classification. I also appended cluster labels to the dataset as a feature in multi-label classification. 
 
-<img src="/image/elbow.png" width="300" height="300">
+<img src="/image/elbow.png" width="400" height="300">
 
 _Multi-Label Classification_
 
