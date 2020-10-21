@@ -58,9 +58,9 @@ Correlation tables and heat maps are printed for all features vs. the target var
 <img src="/image/correlation.png" width="250" height="250">
 
 We also investigate the distribution of the target variable with visualizations, noting a relatively normal distribution. 
-<img src="/image/histplot.png" width="200" height="200" align="left"> 
+<img src="/image/histplot.png" width="200" height="200" align="right"> 
 <img src="/image/distplot.png" width="200" height="200" align="middle"> 
-<img src="/image/cdf.png" width="200" height="200" align="right">
+<img src="/image/cdf.png" width="200" height="200" align="left">
 
 We create target variable labels from the Absolute Upward Mobility metric for both Binary and Multi-label Classification. 
 
@@ -68,14 +68,14 @@ For binary classification, 'am, 80-82 cohort’ is split in half by its numeric 
 
 Note that Classification should not suffer from imbalanced classes given the distribution and engineering of the target variable labels. 
 
-![](/image/valuecounts.png)
+<img src="/image/valuecounts.png" width="200" height="200">
 
 
 ## Feature Selection
 
 I create a function for Mutual Information Classification to create feature rankings for binary and multi-label Classification and print top features. These results are consistent with the correlation EDA from before. 
 
-![](/image/toptenfeatures.png)
+<img src="/image/toptenfeatures.png" width="300" height="300">
 
 ## Model Selection and Results
 
@@ -86,7 +86,8 @@ Started with a simple LogisticRegression model which showed poor performance. En
 
 Here is an example of the Feature Importances from the GradientBoostingClassifier. The highest one is again fraction of children with single mothers, but other important features not identified before include manufacturing employment share, fraction religious, growth in Chinese imports. Interesting insight.
 
-![](/image/gradientfeatures.png)
+<img src="/image/gradientfeatures.png" width="300" height="300">
+
 
 Given the need for regularization, I scaled the data and employed LogisticRegressionCV with elastic-net regularization, 5-fold cross-validation, and hyper-parameter tuning ranges of Cs = np.logspace(-10,10,50) and L1 ratios = np.arange(0,1,.05). 
 
@@ -98,7 +99,7 @@ _K-Means Clustering_
 
 Although not originally a clustering problem, I investigated the data with the K-Means Clustering method to find the optimal number of clusters to be around 4. This is theoretically consistent with our splitting of target variable labels into 4 groups for multi-label classification. I also appended cluster labels to the dataset as a feature in multi-label classification. 
 
-![](/image/elbow.png)
+<img src="/image/elbow.png" width="300" height="300">
 
 _Multi-Label Classification_
 
