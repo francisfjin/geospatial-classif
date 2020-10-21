@@ -17,7 +17,6 @@ Specifically attempting to answer the following questions:
 Conclusions will provide insight into geographical variation, trends amongst communities, and important factors to children rising out of poverty, thus informing potential targeted solutions for minority communities and future policy reform. 
 
 Main script [here](https://github.com/francisfjin/Geospatial_SocioeconomicMobility/blob/main/finalproject.ipynb)
-)
 
 ## Attempts made previously
 
