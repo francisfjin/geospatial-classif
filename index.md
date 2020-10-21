@@ -58,7 +58,9 @@ Correlation tables and heat maps are printed for all features vs. the target var
 <img src="/image/correlation.png" width="250" height="250">
 
 We also investigate the distribution of the target variable with visualizations, noting a relatively normal distribution. 
-<img src="/image/histplot.png" width="200" height="200" align="left"> <img src="/image/distplot.png" width="200" height="200" align="middle"> <img src="/image/cdf.png" width="200" height="200" align="right>
+<img src="/image/histplot.png" width="200" height="200" align="left"> 
+<img src="/image/distplot.png" width="200" height="200" align="middle"> 
+<img src="/image/cdf.png" width="200" height="200" align="right">
 
 We create target variable labels from the Absolute Upward Mobility metric for both Binary and Multi-label Classification. 
 
