@@ -116,7 +116,7 @@ Utilizing Plotly for interactive graphical visualizations, displayed the results
 
 Hover over any city to view its Actual vs. Predicted mobility label. Note the higher accuracy of the model, the more identical the map colors will be. 
 
-https://github.com/francisfjin/geospatial-classification/blob/gh-pages/map.htm
+[Interactive Maps!](https://francisfjin.github.io/page/)
 
 
 ## Conclusions
