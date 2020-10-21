@@ -71,14 +71,13 @@ For binary classification, 'am, 80-82 cohort’ is split in half by its numeric 
 
 Note that Classification should not suffer from imbalanced classes given the distribution and engineering of the target variable labels. 
 
-<img src="/image/valuecounts.png" width="200" height="200">
-
+![](/image/valuecounts.png)
 
 ## Feature Selection
 
 I create a function for Mutual Information Classification to create feature rankings for binary and multi-label Classification and print top features. These results are consistent with the correlation EDA from before. 
 
-<img src="/image/toptenfeatures.png" width="300" height="300">
+![](/image/toptenfeatures.png)
 
 ## Model Selection and Results
 
