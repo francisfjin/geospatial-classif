@@ -2,7 +2,7 @@
 ## By Francis Jin
 
 ![](/image/map.png)
-[Interactive Maps!](https://francisfjin.github.io/page/)
+[Click here for map!](https://francisfjin.github.io/page/)
 
 
 ## Problem
