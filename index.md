@@ -1,6 +1,7 @@
 # Geospatial Socioeconomic Mobility
 ## By Francis Jin
 
+![](/image/map.png)
 [Interactive Maps!](https://francisfjin.github.io/page/)
 
 
@@ -23,19 +24,18 @@ Main script [here](https://github.com/francisfjin/Geospatial_SocioeconomicMobili
 Namely two studies from Opportunity Insights (where we drew our data from), tackled the issue in different ways. They used traditional statistical analysis and regression to investigate the impact of community and race on economic mobility. 
 
 Studies: 
-- Where is the Land of Opportunity? The Geography of Intergenerational Mobility in the United States https://opportunityinsights.org/paper/land-of-opportunity/
-- Race and Economic Opportunity in the United States: An Intergenerational Perspective
-https://opportunityinsights.org/paper/race/
+- [Where is the Land of Opportunity? The Geography of Intergenerational Mobility in the United States](https://opportunityinsights.org/paper/land-of-opportunity/)
+- [Race and Economic Opportunity in the United States: An Intergenerational Perspective](https://opportunityinsights.org/paper/race/)
 
 I applied Machine Learning models for prediction and feature engineering to provide additional insight, while keeping in mind explainability given the social importance of the subject. I also approached the problem with Classification methods instead to add interpretability: given a specific community or area of communities, what level of economic mobility can we predict the children to have (low, medium, high)?  In addition, my project focuses on only minority communities, and I’ve added interactive visualizations to portray the geographical variations. 
 
 ## Data
 
-The data is from Opportunity Insights (https://opportunityinsights.org/data/), a Harvard non-profit focused on the issue, which has a great library of data on socioeconomic and educational factors by geographic level across America.
+The data is from [Opportunity Insights](https://opportunityinsights.org/data/), a Harvard non-profit focused on the issue, which has a great library of data on socioeconomic and educational factors by geographic level across America.
 
 Datasets: 
-Neighborhood Characteristics by Commuting Zone (‘CZ_neighborhoodcharacteristicsbycsv.csv’)
-Geography of Mobility: Commuting Zone Characteristics - Definitions and Data Sources (‘online_data_tables-8.xls')
+[Neighborhood Characteristics by Commuting Zone](https://github.com/francisfjin/geospatial-classification/blob/main/CZ_neighborhoodcharacteristicsbycsv.csv)
+[Geography of Mobility: Commuting Zone Characteristics - Definitions and Data Sources](https://github.com/francisfjin/geospatial-classification/blob/main/online_data_tables-8.xls)
 
 ## Data Cleaning and Pre-processing
 
@@ -47,7 +47,7 @@ Finally we merge the two datasets on Commuting Zone, resulting with a dataset of
 
 ## Target Variable 
 
-The target variable is the metric we use to measure socioeconomic mobility, deemed “Absolute Upward Mobility”, engineered from the paper (https://opportunityinsights.org/paper/land-of-opportunity/). It is the mean rank (in the national child income distribution) of children whose parents are at the 25th percentile of the national parent income distribution. The paper goes into great comprehensive detail of this ranking method, as well as data sources used such as Census Data and IRS tax filings, and adjustments for robustness of the metric. 
+The target variable is the metric we use to measure socioeconomic mobility, deemed “Absolute Upward Mobility”, engineered from the [paper](https://opportunityinsights.org/paper/land-of-opportunity/). It is the mean rank (in the national child income distribution) of children whose parents are at the 25th percentile of the national parent income distribution. The paper goes into great comprehensive detail of this ranking method, as well as data sources used such as Census Data and IRS tax filings, and adjustments for robustness of the metric. 
 
 
 
@@ -94,8 +94,7 @@ Given the need for regularization, I scaled the data and employed LogisticRegres
 
 Training and test set scores both drastically improved to ~90%, with roc_auc_score consistently above 90% as well. 
 
-![](/image/multi.png)
-
+![](/image/binaryscore.png)
 
 _K-Means Clustering_
 
@@ -107,20 +106,21 @@ _Multi-Label Classification_
 
 Using the same hyper-parameter tuning and regularization with 10-fold cross-validation, LogisticRegression is giving accuracy scores of ~80% on training and ~70% on test data. 
 
+![](/image/multi.png)
+
 Gradient Boosting overfit again.  
 
 
 ## Visualizations
 
-Utilizing Plotly for interactive graphical visualizations, displayed the results for both Binary and Multi-label Classification.
+Utilizing [Plotly](https://plotly.com/) for interactive graphical visualizations, displayed the results for both Binary and Multi-label Classification.
 
 Hover over any city to view its Actual vs. Predicted mobility label. Note the higher accuracy of the model, the more identical the map colors will be. 
 
 [Interactive Maps!](https://francisfjin.github.io/page/)
 
 
-## Conclusions
-
+## Conclusionshttps://plotly.com/
 Our hypothesis is confirmed that using data on community-level attributes, we can predict the level of future socioeconomic mobility of children who grow up in that community. This shows not only that there are geographical variations in the likelihood of the success of children, but also the community-level features which are most important in determining this. 
 
 We can identify who is disadvantaged or advantaged, why, and hopefully how to help more children rise up. Once able to identify the factors helping or preventing children’s success in rising out of poverty, we can start to use this information to inform social policy, community activism, education reform, and targeted solutions for communities across the country.
