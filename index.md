@@ -53,9 +53,9 @@ The target variable is the metric we use to measure socioeconomic mobility, deem
 
 ## EDA
 
-Correlation tables and heat maps are printed for all features vs. the target variable (labeled ‘am, 80-82 cohort’). Immediately we see the biggest positive and negative correlations, including features such as fraction of children with single mothers, racial shares, high school dropout rate, fraction of adults married, fraction of middle class families, teenage labor force participation rate, etc. <img src="/image/heatmap.png" width="550" height="500" align="middle">
+Correlation tables and heat maps are printed for all features vs. the target variable (labeled ‘am, 80-82 cohort’). Immediately we see the biggest positive and negative correlations, including features such as fraction of children with single mothers, racial shares, high school dropout rate, fraction of adults married, fraction of middle class families, teenage labor force participation rate, etc. <img src="/image/heatmap.png" width="500" height="500" align="middle">
 
-<img src="/image/correlation.png" width="280" height="250">
+<img src="/image/correlation.png" width="250" height="250">
 
 
 We also investigate the distribution of the target variable with visualizations, noting a relatively normal distribution. 
