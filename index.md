@@ -104,11 +104,9 @@ Although not originally a clustering problem, I investigated the data with the K
 
 _Multi-Label Classification_
 
-Using the same hyper-parameter tuning and regularization with 10-fold cross-validation, LogisticRegression is giving accuracy scores of ~80% on training and ~70% on test data. 
+Using the same hyper-parameter tuning and regularization with 10-fold cross-validation, LogisticRegression is giving accuracy scores of ~80% on training and ~70% on test data. Gradient Boosting overfit again.  
 
 ![](/image/multi.png)
-
-Gradient Boosting overfit again.  
 
 
 ## Visualizations
