@@ -111,7 +111,9 @@ Using the same hyper-parameter tuning and regularization with 10-fold cross-vali
 
 ## Visualizations
 
-Utilizing [Plotly](https://plotly.com/) for interactive graphical visualizations, displayed the results for both Binary and Multi-label Classification.
+Used [Geopy Library](https://geopy.readthedocs.io/en/stable/) for locating coordinates for each commuting zone. 
+
+Used [Plotly](https://plotly.com/) for interactive graphical visualizations, displayed the results for both Binary and Multi-label Classification.
 
 Hover over any city to view its Actual vs. Predicted mobility label. Note the higher accuracy of the model, the more identical the map colors will be. 
 
